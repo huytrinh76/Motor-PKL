@@ -1,0 +1,177 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    transition: 0.6s ease;
+    padding-bottom: 10px;
+}
+/* .sticky{
+    position: fixed;
+    opacity: 60%;
+    width: 100%;
+    transition: 0.6s ease;
+    padding-bottom: 0;
+}
+.sticky + .content {
+    padding-top: 5%;
+  } */
+.title{
+    color: black;
+    position: relative;
+    top: 30px;
+    left: 15%;
+}
+.imgheader{
+    position: relative;
+    left: 23%;
+    width: 25%;
+}
+.hotline:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+.dropa{
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.dropa:hover{
+    color: cyan;
+}
+.dropdown-content{
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: none;
+}
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.dropdown-content a:hover{
+    color: cyan;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    transition: 0.6s ease;
+}
+.dropdown:hover .dropa {
+    transition: 0.6s ease;
+}
+.timkiem{
+    position: relative;
+    left: 35%;
+    top: 50px;
+}
+.atk{
+    color: black;
+}
+.atk:hover{
+    color: cyan;
+    transition: 0.6s ease;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    margin: auto;
+    width: 90%;
+    /* background-image: url('https://image.freepik.com/free-vector/black-carbon-industrial-background_79145-253.jpg'); */
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 5px 5px 0;
+    background-color: gray;
+    opacity: 40%;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 5%;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: cyan;
+    opacity: 100%;
+  }
+
+  .species{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Azonix';
+    text-align: center;
+    bottom: 0;
+    left: 8%;
+    color: white;
+    background-color: cyan;
+    padding: 10px;
+  }
+
+  /* Caption text */
+  .text {
+    color: white;
+    font-size: 30px;
+    bottom: -17%;
+    padding: 10px 0;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    text-align: center;
+    background-color: black;
+    opacity: 80%;
+  }
+  .text:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.6s ease;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
