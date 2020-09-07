@@ -1,4 +1,4 @@
-body{
+*{
     padding: 0;
     margin: 0;
 }
@@ -91,7 +91,6 @@ body{
 .slideshow-container {
     margin: auto;
     width: 90%;
-    /* background-image: url('https://image.freepik.com/free-vector/black-carbon-industrial-background_79145-253.jpg'); */
   }
   
   /* Hide the images by default */
@@ -112,8 +111,8 @@ body{
     font-size: 20px;
     transition: 0.6s ease;
     border-radius: 0 5px 5px 0;
-    background-color: gray;
-    opacity: 40%;
+    background-color: cyan;
+    
   }
   
   /* Position the "next button" to the right */
@@ -124,8 +123,7 @@ body{
   
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
-    background-color: cyan;
-    opacity: 100%;
+    background-color: gray;
   }
 
   .species{
@@ -174,4 +172,25 @@ body{
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+  .menu ul{
+    list-style-type: none;
+    text-align: center;
+  }
+  .menu ul li{
+    display: inline-block;
+    width: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5%;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+  }
+  .menu ul li:hover{
+    background-color: cyan;
+    color: white;
   }
