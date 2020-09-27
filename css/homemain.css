@@ -1,3 +1,6 @@
+body{
+  background-image: url('https://cdn.barnimages.com/wp-content/uploads/2018/04/20170904-barnimages-003-500x333@2x.webp');
+}
 *{
     padding: 0;
     margin: 0;
@@ -5,32 +8,33 @@
 .header{
     display: flex;
     margin: auto;
-    background-color: white;
+    background-color: cyan;
     transition: 0.6s ease;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 /* .sticky{
     position: fixed;
     opacity: 60%;
     width: 100%;
     transition: 0.6s ease;
-    padding-bottom: 0;
+    padding-bottom: 10px;
 }
 .sticky + .content {
-    padding-top: 5%;
+    padding-top: 40%;
   } */
-.title{
+.hotline{
     color: black;
     position: relative;
-    top: 30px;
-    left: 15%;
+    top: 50px;
+    left: 14%;
 }
 .imgheader{
     position: relative;
-    left: 23%;
+    left: 21%;
     width: 25%;
+    top: 5px;
 }
-.hotline:hover{
+.number:hover{
     color: red;
     cursor: pointer;
 }
@@ -38,17 +42,19 @@
 .dropdown{
     display: inline-block;
     position: relative;
-    left: 30%;
-    top: 50px;
+    left: 6%;
+    top: 10px;
+    margin: auto;
 }
 .dropa{
     color: black;
     font-size: 20px;
     padding: 20px;
     cursor: pointer;
+    text-align: center;
 }
 .dropa:hover{
-    color: cyan;
+    color: white;
 }
 .dropdown-content{
     position: absolute;
@@ -69,11 +75,38 @@
 }
 .dropdown:hover .dropdown-content{
     display: block;
-    transition: 0.6s ease;
 }
-.dropdown:hover .dropa {
-    transition: 0.6s ease;
+
+.dropdown2{
+  display: inline-block;
+  margin: auto;
+  position: relative;
 }
+.dropa2{
+  cursor: pointer;
+}
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-left: 20px;
+  
+}
+.dropdown-content2 a{
+  display: block;
+  color: black;
+  padding: 20px 40px;
+  margin-left: 2%;
+}
+.dropdown-content2 a:hover{
+  color: cyan;
+}
+.dropdown2:hover .dropdown-content2{
+  display: block;
+}
+
 .timkiem{
     position: relative;
     left: 35%;
@@ -90,7 +123,6 @@
 /* Slideshow container */
 .slideshow-container {
     margin: auto;
-    width: 90%;
   }
   
   /* Hide the images by default */
@@ -103,7 +135,7 @@
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 70%;
+    top: 90%;
     width: auto;
     padding: 16px;
     color: white;
@@ -112,12 +144,11 @@
     transition: 0.6s ease;
     border-radius: 0 5px 5px 0;
     background-color: cyan;
-    
   }
   
   /* Position the "next button" to the right */
   .next {
-    right: 5%;
+    right: 0%;
     border-radius: 5px 0 0 5px;
   }
   
@@ -131,7 +162,7 @@
     font-size: 50px;
     font-family: 'Azonix';
     text-align: center;
-    bottom: 0;
+    bottom: -30%;
     left: 8%;
     color: white;
     background-color: cyan;
@@ -142,11 +173,10 @@
   .text {
     color: white;
     font-size: 30px;
-    bottom: -37%;
+    bottom: -55%;
     padding: 10px 0;
     position: absolute;
-    left: 5%;
-    width: 90%;
+    width: 100%;
     text-align: center;
     background-color: black;
     opacity: 80%;
@@ -157,7 +187,7 @@
     transition: 0.6s ease;
   }
   /* Fading animation */
-  .fade {
+  /* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -172,10 +202,10 @@
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-  }
+  } */
 
   .menu{
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 2%;
   }
   .menu ul{
@@ -190,6 +220,7 @@
     padding: 10px;
     margin-left: 5%;
     color: black;
+    background-color: white;
   }
   .menu ul li a{
     text-decoration: none;
