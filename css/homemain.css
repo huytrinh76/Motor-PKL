@@ -142,7 +142,7 @@
   .text {
     color: white;
     font-size: 30px;
-    bottom: -17%;
+    bottom: -37%;
     padding: 10px 0;
     position: absolute;
     left: 5%;
@@ -173,6 +173,11 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  .menu{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
   .menu ul{
     list-style-type: none;
     text-align: center;
@@ -184,13 +189,26 @@
     border-radius: 10px;
     padding: 10px;
     margin-left: 5%;
+    color: black;
   }
   .menu ul li a{
     text-decoration: none;
     display: block;
-    color: black;
   }
   .menu ul li:hover{
     background-color: cyan;
     color: white;
+    transition: 0.4s ease;
+  }
+  footer{
+    background-color: cyan;
+
+  }
+  .tfooter{
+    cursor: pointer;
+    color: black;
+  }
+  .tfooter:hover{
+    color: red;
+    transition: 0.6s ease;
   }
