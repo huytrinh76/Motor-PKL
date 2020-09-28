@@ -92,13 +92,11 @@ body{
   font-size: 18px;
   border-radius: 10px;
   margin-left: 20px;
-  
 }
 .dropdown-content2 a{
   display: block;
   color: black;
   padding: 20px 40px;
-  margin-left: 2%;
 }
 .dropdown-content2 a:hover{
   color: cyan;
