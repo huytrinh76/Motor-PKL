@@ -959,6 +959,9 @@ h4.title{
 	padding-bottom: 13px;
 	font-family: 'Azonix';
 }
+.col_1_of_login h4{
+	font-family: 'Times New Roman', Times, serif;
+}
 input.inputbox, input.required, div.k2AccountPage input[type="text"] {
 	background: #FFF;
 	border: 1px solid #BDBCBC;
@@ -3141,4 +3144,7 @@ ul.delivery-list li a:hover{
 	.box {
 		width: 55.5%;
 	}
+}
+.wrap h4{
+	font-family: 'Times New Roman', Times, serif;
 }
