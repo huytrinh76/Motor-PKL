@@ -2053,6 +2053,7 @@ h5.m_6{
 }
 h4.m_7{
 	padding:5% 0 0% 0;
+	text-align: center;
 }
 h4.m_7 a{
 	color:#555;
@@ -2068,8 +2069,8 @@ span.rollover {
 	-webkit-transition: -webkit-transform 1s;
 	background: url(../images/magnify-alt.png) center center no-repeat rgba(0, 0, 0, 0.4);
 	cursor: pointer;
-	height: 215px;
-	width: 252px;
+	height: 33%;
+	width: 16%;
 	position: absolute;
 	z-index: 10;
 	opacity: 0;
